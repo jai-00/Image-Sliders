@@ -1,0 +1,15 @@
+:root {
+  --clr-font: black;
+  --clr-white: rgb(255, 255, 255);
+  --bg-dark: blue;
+  --bg-light: rgb(128, 128, 128);
+  --line-spacing: 5rem;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}

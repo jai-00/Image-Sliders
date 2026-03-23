@@ -1,0 +1,15 @@
+.container {
+  background: rgba(106, 13, 91, 0.46);
+  margin: var(--line-spacing);
+  /* padding-right: 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5rem;
+}
+
+.container h1 {
+  /* border: 1px solid black; */
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.505);
+}
