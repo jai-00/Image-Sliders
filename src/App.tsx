@@ -1,4 +1,5 @@
 import "./App.css";
+import FramerMotionSlider from "./components/FramerMotionSlider";
 import ImageSlider from "./components/ImageSlider";
 import InfiniteImageSlider from "./components/InfiniteImageSlider";
 
@@ -12,6 +13,10 @@ function App() {
       <div className="container">
         <h1>Infinite Image Slider</h1>
         <InfiniteImageSlider />
+      </div>
+      <div className="container">
+        <h1>Framer Motion Slider</h1>
+        <FramerMotionSlider />
       </div>
     </>
   );
